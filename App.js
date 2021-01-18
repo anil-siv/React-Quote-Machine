@@ -156,7 +156,7 @@ class App extends React.Component {
   render() {
     return (
       <div
-        style={{ backgroundColor: this.state.color, height: "300vh" }}
+        style={{ backgroundColor: this.state.color, minHeight: "125vh" }}
         className="container-fluid"
       >
         <QuoteBox
